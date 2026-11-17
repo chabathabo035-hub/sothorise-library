@@ -56,6 +56,7 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
+      <footer className="footer">© 2026 SothoRise Library</footer>
     </>
   );
 }
