@@ -22,7 +22,7 @@ export default function Dashboard() {
 
   return (
     <section>
-      <h2>Dashboard</h2>
+      <h2>Library Overview</h2>
       {error && <p className="error">{error}</p>}
 
       <div className="stats">

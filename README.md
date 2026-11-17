@@ -35,7 +35,6 @@ npm run dev
 - `npm run seed` adds an admin account and 3 sample books
 - The API runs on http://localhost:5000
 
-If your MySQL root user has a password, put it in `backend/.env` as `DB_PASSWORD=yourpassword`.
 
 ### 3. Start the frontend
 Open a second terminal:
@@ -55,9 +54,8 @@ Go to the **Users** page and log in with:
 
 | Membership ID | Password |
 |---|---|
-| `ADMIN001` | `admin123` |
+| `CHABA620` | '123456789` |
 
-(These are the default details created by `npm run seed`.)
 
 ## Project structure
 
@@ -109,6 +107,4 @@ library-app/
 - Stock and the transaction record are saved together in one database transaction.
 - Page access is controlled in the React frontend. A production system would also check the role on the server (for example with JWT tokens).
 
-## Author
 
-Thabo Chaba, Limkokwing University of Creative Technology, Lesotho
