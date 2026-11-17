@@ -293,3 +293,9 @@ small.error {
 .pill.ADD_STOCK {
     background: var(--primary);
 }
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: var(--muted);
+}
