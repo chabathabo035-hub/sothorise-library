@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 const empty = { title: '', author: '', genre: '', isbn: '', quantity: 0 };
 
 // Controlled form used for both adding and editing a book
-export default function BookForm({ initial, onSubmit, onCancel, submitLabel = 'Add Book' }) {
+export default function BookForm({ initial, onSubmit, onCancel, submitLabel = 'Save Book' }) {
   const [form, setForm] = useState(initial || empty);
   const [errors, setErrors] = useState({});
 
